@@ -1,0 +1,13 @@
+list opskrifter på 3 forskellige, nemme, sunde og økonomisk hverdags retter tilpasset til 4 personer. 
+Svaret skal levere i et et csv format med følgende kolonner: 
+overskrift 
+opskrift 
+tags 
+
+Hvor tags referere til, hvilke kategorier, maden ligger i, fx vegetar, fist, oksekød, cheatday. Tags skal separeres med ; 
+sørg for at de enkelte ingredienser i opskriften bliver tagget med <b></b>, mens antal og unit skal tages med <i></i>. 
+Yderligere skal hvert step deles op i linjer med <br>
+
+her er et eksempel:
+overskrift,opskrift,tags
+"One pot kylling og ris","1. Varm <i>1 spsk</i> <b>olivenolie</b> i en gryde <br>2. Svits <i>1 stk</i> <b>løg</b> og <i>2 fed</i> <b>hvidløg</b> i 2 min<br>3. Tilsæt <i>400 g</i> <b>kyllingebryst</b> i tern og brun i 5 min<br>4. Kom <i>2 stk</i> <b>gulerødder</b> i skiver og <i>1 stk</i> <b>rød peberfrugt</b> i tern i gryden </br>5. Tilsæt <i>2 dl</i> <b>ris</b> og <i>4 dl</i> <b>vand</b> samt <i>1 terning</i> <b>grøntsagsbouillon</b> <br>6. Lad simre under låg i 20 min<br>7. Smag til med <b>salt</b> og <b>peber</b>","kylling;hovedret;sund;budget"
